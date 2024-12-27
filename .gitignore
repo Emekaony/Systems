@@ -1,0 +1,87 @@
+# General OS-generated files
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+*.vcd
+*.fst
+
+# Simulation tool generated files
+*.wlf
+*.jou
+*.str
+*.ucdb
+*.rpt
+*.syn
+*.lxt
+*.vpd
+*.pb
+
+# Compiler/Simulator output
+*.out
+*.o
+*.elf
+*.bin
+*.hex
+*.map
+*.lst
+*.cmd
+*.tcl
+
+# Synopsys Design Compiler
+*.ddc
+*.syn
+
+# Mentor Graphics ModelSim/QuestaSim
+transcript
+work/
+vsim.wlf
+
+# Xilinx Vivado
+*.cache/
+*.hw/
+*.runs/
+*.sim/
+*.srcs/
+*.xpr
+*.xwbt
+webtalk/
+xsim.dir/
+
+# Intel Quartus
+db/
+incremental_db/
+simulation/
+*.qws
+*.sld
+
+# Generated Verilog files
+*.gen.v
+*.gen.sv
+*.gen.vh
+
+# Documentation
+*.pdf
+*.doc
+*.docx
+
+# User-specific settings
+.idea/
+.vscode/
+*.iml
+
+# Backup and archive files
+*.tar.gz
+*.zip
+*.7z
+*.rar
+
+# Temporary waveform or dump files
+*.wave
+*.dump
+*.raw
