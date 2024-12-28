@@ -10,6 +10,10 @@ module using_procedures();
 
     // another procedure 
     initial begin
+      	// specify the files to dump
+        $dumpfile("dump.vcd"); // Create a dump file for the waveform
+        $dumpvars(0, using_procedures); // Dump all variables in this module
+      
         #2; // wait 2 time units
         z = x ^ y; // bitwise XOR
         #10; // wait 10 time units 
