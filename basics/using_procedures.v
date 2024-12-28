@@ -3,7 +3,7 @@ module using_procedures();
     reg y = 1'b1; // 1 vaiebla witha binary value of 1
     reg z;
 
-    // procedure example
+    // always @ blocks run whenever the parameter inside parenthesis changes
     always @(z) begin
         $display("x=%b, y=%b, z=%b", x, y, z);
     end
